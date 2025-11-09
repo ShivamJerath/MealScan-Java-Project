@@ -1,0 +1,16 @@
+com\mealscan\servlet\RegisterServlet.class
+com\mealscan\servlet\UploadRecordServlet.class
+com\mealscan\model\User$UserRole.class
+com\mealscan\servlet\RecordServlet.class
+com\mealscan\dao\RecordDAO.class
+com\mealscan\servlet\BillServlet.class
+com\mealscan\model\Record$RecordType.class
+com\mealscan\model\Record.class
+com\mealscan\dao\UserDAO.class
+com\mealscan\servlet\LoginServlet.class
+com\mealscan\servlet\UserServlet.class
+com\mealscan\MealScanApplication.class
+com\mealscan\servlet\DeleteRecordServlet.class
+com\mealscan\servlet\LogoutServlet.class
+com\mealscan\config\DatabaseInitializer.class
+com\mealscan\model\User.class
