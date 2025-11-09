@@ -1,9 +1,11 @@
+com\mealscan\servlet\DeleteUserServlet.class
 com\mealscan\servlet\RegisterServlet.class
 com\mealscan\servlet\UploadRecordServlet.class
 com\mealscan\model\User$UserRole.class
 com\mealscan\servlet\RecordServlet.class
 com\mealscan\dao\RecordDAO.class
 com\mealscan\servlet\BillServlet.class
+com\mealscan\servlet\UserStatsServlet.class
 com\mealscan\model\Record$RecordType.class
 com\mealscan\model\Record.class
 com\mealscan\dao\UserDAO.class
@@ -14,3 +16,4 @@ com\mealscan\servlet\DeleteRecordServlet.class
 com\mealscan\servlet\LogoutServlet.class
 com\mealscan\config\DatabaseInitializer.class
 com\mealscan\model\User.class
+com\mealscan\servlet\UpdateUserServlet.class

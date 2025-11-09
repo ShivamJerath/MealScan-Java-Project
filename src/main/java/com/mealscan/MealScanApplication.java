@@ -10,7 +10,7 @@ import org.eclipse.jetty.util.resource.Resource;
 
 public class MealScanApplication {
     
-    private static final int PORT = 8081;
+    private static final int PORT = 9090;
     
     public static void main(String[] args) {
         try {
@@ -62,6 +62,9 @@ public class MealScanApplication {
         context.addServlet(DeleteRecordServlet.class, "/api/records/delete");
         context.addServlet(BillServlet.class, "/api/bills");
         context.addServlet(UserServlet.class, "/api/users");
+        context.addServlet(DeleteUserServlet.class, "/api/users/delete");
+        context.addServlet(UpdateUserServlet.class, "/api/users/update");
+        context.addServlet(UserStatsServlet.class, "/api/stats");
         
         System.out.println("All servlets registered successfully");
     }
